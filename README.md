@@ -124,8 +124,8 @@ p.y = 5;
 //if draw is a function which takes two integers as arguments
 draw(p); // will be the same as draw(p.x,p.y);
 ```
+Using typedefs, we won't need to use struct everytime we create a point, eg:
 ```
-//using Typedefs, we won't need to use struct everytime we create a point, eg:
 typedef struct {
     int x;
     int y;
